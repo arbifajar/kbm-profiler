@@ -1,0 +1,30 @@
+{
+  "dataset_kind": "dummy",
+  "provenance": "Pengguna mengonfirmasi dump merupakan data uji/dummy.",
+  "source_file": "siakadmu.sql",
+  "source_sha256": "3c01351344b5842c8ec0725de759a234e2c41b5f4e3ba1b23992d5f9ea27c400",
+  "exported_on": "2026-11-07",
+  "unit": "ID jadwal + tanggal dengan minimal satu catatan jurnal/piket/review",
+  "period_start": "2023-01-02",
+  "period_end": "2026-11-06",
+  "sessions": 116553,
+  "source_counts": {
+    "rombels": 12,
+    "jadwal_pelajarans": 586,
+    "absensi_gurus": 0,
+    "tahun_ajarans": 1,
+    "kontrol_kbms": 105966,
+    "jurnal_gurus": 105827,
+    "ulasan_kbms": 519065,
+    "mapels": 44,
+    "absensi_mapels": 2324787,
+    "guru_details": 31
+  },
+  "auto_reviews": 0,
+  "unknown_schedule_sessions": 0,
+  "day_mismatch_sessions": 0,
+  "independent_outcome_labels": false,
+  "review_origin_note": "Tanpa penanda otomatis tidak berarti review manusia; seluruh dump berstatus dummy.",
+  "calendar_note": "Tidak ada rekonstruksi hari efektif. Penyebut adalah sesi tercatat, bukan seluruh jadwal wajib.",
+  "generator_note": "UlasanKbmSeeder.calculateRating menggunakan kondisi piket, rasio alfa dan jam pelajaran; korelasi bersifat rekayasa simulasi."
+}
